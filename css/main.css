@@ -85,13 +85,13 @@ a:focus {
   z-index: 99999;
 }
 #main-slider {
-
+  background-image: url(../images/skyline2.gif); 
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  padding: 15.5% 0;
-  color: #ff8b00;
+  padding: 200px 0;
+  color: #fff;
 }
 
 
