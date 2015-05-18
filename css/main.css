@@ -44,7 +44,7 @@ a{
 }
 
 a>i{
-  color: #fff;
+  color: #111;
 }
 
 p{
@@ -225,7 +225,10 @@ a:focus {
   margin: 0;
 }
 .portfolio-items {
-  margin-right: -20px;
+
+  height: auto;
+  width: auto;
+
 }
 .portfolio-filter {
   margin-bottom: 50px;
@@ -257,14 +260,12 @@ a:focus {
 .portfolio-item .item-inner {
   margin: 0 20px 20px 0;
   text-align: center;
-  background: #fff;
   padding: 10px;
   border-bottom: 1px solid #e1e1e1;
   
-  box-shadow: 7px 7px 5px 0 #737373;
 }
 .portfolio-item img {
-  width: 100%;
+  width: 80%;
   border-radius: 5px;
 }
 .portfolio-item .portfolio-image {
@@ -393,13 +394,8 @@ a:focus {
 .carousel.scale .right-arrow {
   right: -10px;
 }
-.carousel.scale .active .row > div:nth-child(1) {
-  -webkit-animation: scaleUp 200ms linear 0 both;
-  -moz-animation: scaleUp 200ms linear 0 both;
-  -ms-animation: scaleUp 200ms linear 0 both;
-  -o-animation: scaleUp 200ms linear 0 both;
-  animation: scaleUp 200ms linear 0 both;
-}
+
+
 .carousel.scale .active .row > div:nth-child(2) {
   -webkit-animation: scaleUp 200ms linear 100ms both;
   -moz-animation: scaleUp 200ms linear 100ms both;
@@ -483,7 +479,7 @@ a:focus {
   height: 80px;
   width: 80px;
   line-height: 80px;
-  color: #2B7B0A;
+  color: #ff8b00;
   margin: 5px;
   text-align: center;
   display: inline-block !important;
@@ -518,6 +514,9 @@ textarea#message {
 /*text colors*/
 #whitetext {
 color: #ffffff;
+}
+#forestgreen {
+  color: #7fc242;
 }
 
 
